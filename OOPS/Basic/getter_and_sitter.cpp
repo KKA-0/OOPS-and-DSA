@@ -5,7 +5,6 @@ class solution{
 	
 		int a,b,c,d;
 		
-			
 		public:
 			int geta(){
 				return a;

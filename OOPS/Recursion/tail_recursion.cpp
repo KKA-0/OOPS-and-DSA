@@ -5,7 +5,7 @@ using namespace std;
 void fun(int n){
 	if(n==0)
 	{
-		return ;
+		return;
 	}
 	cout<<n;
 	fun(n-1);
@@ -13,7 +13,10 @@ void fun(int n){
 
 int main()
 {
-	fun(5);
+	int n =5;
+	fun(n);
 	return 0;	
 }
+
+
 

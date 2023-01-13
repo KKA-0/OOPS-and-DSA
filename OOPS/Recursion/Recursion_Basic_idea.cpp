@@ -7,7 +7,7 @@ void rec1(int n)
 	{
 		return;
 	}
-	cout<<"karan";
+	cout<<"karan ";
 	rec1(n-1);
 }
 
