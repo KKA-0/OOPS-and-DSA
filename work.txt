@@ -1,0 +1,9 @@
+INSERT INTO Emp (ename, emailId)
+SELECT 'karan', 'karan@itm.in'
+from dual
+WHERE EXISTS (
+    SELECT name
+    FROM personal_info
+    WHERE name = 'karan'
+);
+
